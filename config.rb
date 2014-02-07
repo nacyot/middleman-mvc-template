@@ -1,6 +1,6 @@
 require './config/middleman_routes.rb'
-require './config/routes.rb'
-require './config/boot.rb'
+load './config/routes.rb'
+load './config/boot.rb'
 require './lib/render.rb'
 
 # Set Routings
